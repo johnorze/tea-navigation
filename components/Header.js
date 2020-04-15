@@ -14,7 +14,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     textAlign: 'center',
     backgroundColor: '#FFF',
-    opacity: .8
+    opacity: .7
     },
 })
 

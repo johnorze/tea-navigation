@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Tab Navigation Template",
-    "slug": "tea-navigation",
+    "name": "In Search of Lost Tea Timer",
+    "slug": "lost-tea-timer",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
