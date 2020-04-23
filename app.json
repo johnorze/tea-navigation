@@ -25,7 +25,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
-    }
+      "supportsTablet": false
+    },
+    "android": {
+      "package": "johnorze.lost_tea_timer",
+      "versionCode": 2,
+      "permissions": []
+    },
+    "description": "A free, simple tea timer built with React Native by John Orzechowski.",
+    "githubUrl": "https://github.com/johnorze/tea-navigation/"
   }
 }
