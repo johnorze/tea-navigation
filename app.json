@@ -29,7 +29,7 @@
     },
     "android": {
       "package": "johnorze.lost_tea_timer",
-      "versionCode": 2,
+      "versionCode": 3,
       "permissions": []
     },
     "description": "A free, simple tea timer built with React Native by John Orzechowski.",

@@ -9,15 +9,16 @@ const AboutScreen = ({navigation}) => (
     
     <Header title="In Search of Lost Tea Timer" />
     <TouchableOpacity style={styles.containerStyle} onPress={() => navigation.navigate('Home')}>
-    <View style={{flex: 1, justifyContent: 'center', backgroundColor: '#fff', opacity: .6, margin: 15}}>
+        <View style={styles.aboutStyle}>
+        <View style={{padding: 10, justifyContent: 'center', backgroundColor: '#fff', opacity: .6, margin: 15}}>
             <Text style={styles.aboutStyle}>A free, simple tea timer built with React Native by John Orzechowski.</Text>
             <Text style={styles.linkStyle} onPress={() => Linking.openURL('https://github.com/johnorze/tea-navigation')}>https://github.com/johnorze/tea-navigation</Text>
             <Text style={styles.linkStyle} onPress={() => Linking.openURL('https://www.vecteezy.com/free-vector/teapot')}>Teapot Vectors by Vecteezy</Text> 
             <Text style={styles.aboutStyle}> Photo by 五玄土 ORIENTO on Unsplash </Text>
-            <Text>{'\n'}</Text>
+ 
         </View>
-    <View style={styles.containerStyle}></View>
-    <View style={{flex: 1, justifyContent: "flex-end", flexDirection: "column", padding: 15}}><TeaButton tea="Go Back" onPress={() => navigation.navigate('Home')} /></View>
+        <TeaButton tea="Go Back" onPress={() => navigation.navigate('Home')} />
+    </View>
     </TouchableOpacity>
     </ImageBackground>
 
